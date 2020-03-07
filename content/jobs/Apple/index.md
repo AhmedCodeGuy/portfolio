@@ -1,13 +1,14 @@
 ---
-date: '2017-12-21'
+date: '2019-12-21'
 title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
-range: 'July - Dec 2017'
-url: 'https://www.apple.com/music/'
+company: 'Tarteel'
+location: 'Remote, USA'
+range: 'Oct 2019 - Present'
+url: 'https://www.tarteel.io/about'
 ---
 
-- Developed and shipped highly interactive web applications for Apple Music using Ember.js
-- Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs
-- Architected and implemented the front-end of Apple Music's embeddable web player widget, which lets users log in and listen to full songs in the browser
-- Contributed extensively to MusicKit.js, a JavaScript framework that allows developers to add an Apple Music player to their web apps
+- Architected and implemented the front-end of Tarteel's mobile application, a Quran application that listens to your recitation and corrects mistakes using React Native, React Hooks, context api, socket.io,, React Navigation, I18n.
+
+- Communicate with multi-disciplinary teams of engineers, designers, and producers on a weekly sync and daily basis sometimes.
+
+<!-- - Developed and shipped highly interactive mobile applications -->
