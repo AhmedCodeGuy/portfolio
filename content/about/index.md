@@ -2,17 +2,18 @@
 title: 'About Me'
 avatar: './me.jpg'
 skills:
+  - HTML & CSS
   - JavaScript (ES6+)
-  - HTML & (S)CSS
   - React
-  - Vue
-  - Node.js
-  - Express
-  - NativeScript
+  - React Native
+  - GraphQL
+  - REST
 ---
 
-Hello! I'm Brittany, a software engineer based in Boston, MA who enjoys building things that live on the internet. I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces with efficient and modern backends.
+Hello! I'm Ahmed, a Software Engineer with strong JavaScript programming expertise in mobile development with a focus on React Native; recommending and implementing innovative solutions for the delivery of different mobile applications/tools on projects for clients.
 
-Shortly after graduating from [Northeastern University](https://www.ccis.northeastern.edu/), I joined the engineering team at [Upstatement](https://www.upstatement.com/) where I work on a wide variety of interesting and meaningful projects on a daily basis.
+I am very meticulous; constructing clean, scalable, quality and top-notch solutions on a variety of projects - following established written procedures, guidelines and techniques.
+
+Shortly while and after graduating and getting my bachelor degree of Management Information Systetms,I took many online courses one of which is CS50 [Harvard University](https://online-learning.harvard.edu/course/cs50-introduction-computer-science), and after a few years of experience now I joined the awesome engineering team of [Tarteel.io](https://www.tarteel.io/about) where I work on an interesting and meaningful project.
 
 Here are a few technologies I've been working with recently:
