@@ -3,7 +3,7 @@ date: '2019-08-21'
 title: 'Software Engineer'
 company: 'MSD'
 location: 'Cairo, EG'
-range: 'Aug - Sep 2019'
+range: 'Aug - October 2019'
 url: 'http://www.msd-my.com/'
 ---
 
