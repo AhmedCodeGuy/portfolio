@@ -3,15 +3,15 @@ date: '3'
 title: 'Tarteel'
 cover: './tarteel.png'
 github: 'https://github.com/Tarteel-io'
-external: 'http://tarteel.io/about'
+external: 'http://shorturl.at/IJ049'
 tech:
   - React Native
   - Redux
   - React Navigation
   - React Hooks
-  - Context API
   - Socket.io
   - I18n
+  - REST
 showInProjects: true
 ---
 
