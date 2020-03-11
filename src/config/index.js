@@ -4,7 +4,7 @@ module.exports = {
     'Ahmed Hussein is a software engineer based in Cairo, EG who specializes in developing (and occasionally designing) exceptional, high-quality mobile applications.',
   siteKeywords:
     'Ahmed Hussein, Ahmed, Hussein, ahmedcodeguy, software engineer, front-end engineer, mobile developer, javascript, react native developer',
-  siteUrl: 'https://ahmedhussein.com',
+  siteUrl: 'https://ahmedhussein.netlify.com',
   siteLanguage: 'en_US',
   googleAnalyticsID: '', // UA-45666519-2
   googleVerification: '', // DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk
