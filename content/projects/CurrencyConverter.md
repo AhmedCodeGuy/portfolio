@@ -12,4 +12,4 @@ company: ''
 showInProjects: true
 ---
 
-Currency converter mobile application that uses the [FIXER API](https://fixer.io/) to get the current exchange rate of a selected country's currency comapred to Europe's currency.
+Currency converter mobile application that uses the [fixer.io api](https://fixer.io/) to get the current exchange rate of a selected country's currency comapred to Europe's currency.

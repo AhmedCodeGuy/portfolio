@@ -7,6 +7,16 @@ range: 'Jan 2018 - Feb 2019'
 url: 'https://www.innoappstech.com/'
 ---
 
-- Developed and maintained a SaaS eCommerce mobile application primarily using JSX, CSS, JavaScript, React Native, React Navigation, Expo, Storybook, I18n, GraphQL, Apollo, CI/CD.
+Shopz is a UAE-based startup with an office in Egypt.
 
-- A dashboard that customizes the application theme, content and deploys to the AppStore and Playstore using HTML, CSS, JavaScript, Material UI, React, Redux, Redux-Saga, React Router, Parse.
+- I was actively participating in sprint planning, meetups, daily stand-ups, pair programming, and code reviews for the development of the solutions.
+
+- Developed and shipped highly interactive SaaS cross-platform eCommerce mobile app; writing queries, mutations, and subscriptions for the solution.
+
+- Worked on solutions for the dashboard that integrates with the backend of a client's existing eCommerce website.
+
+- Built reusable components and optimized solutions for maximum performance on the projects.
+
+- Maintained codebase and resolved common and major libraries issues on the solutions.
+
+- Created requirements, design and test documentation for the apps, and followed coding best practices/standards in the delivery of solutions on the project.
