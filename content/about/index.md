@@ -10,7 +10,7 @@ skills:
   - REST
 ---
 
-Hello! I'm Ahmed, a Software Engineer with strong JavaScript programming expertise in mobile development with a focus on React Native; recommending and implementing innovative solutions for the delivery of different mobile applications/tools on projects for clients.
+Hi! my name is Ahmed Hussein, and I'm a Software Engineer with strong JavaScript programming expertise in mobile development with a focus on React Native; recommending and implementing innovative solutions for the delivery of different mobile applications/tools on projects for clients.
 
 I care about; constructing clean, scalable, quality and top-notch solutions on a variety of projects - following established written procedures, guidelines, and techniques.
 
