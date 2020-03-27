@@ -6,8 +6,8 @@ module.exports = {
     'Ahmed Hussein, Ahmed, Hussein, ahmedcodeguy, software engineer, front-end engineer, mobile developer, javascript, react native developer',
   siteUrl: 'https://ahmedhussein.netlify.com',
   siteLanguage: 'en_US',
-  googleAnalyticsID: '', // UA-45666519-2
-  googleVerification: '', // DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk
+  googleAnalyticsID: process.env.GOOGLE_ANALYTICS_TRACKING_ID || 'none',
+  googleVerification: process.env.GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE,
   name: 'Ahmed Hussein',
   location: 'Cairo, EG',
   email: 'ahmedhussein.developer@gmail.com',
