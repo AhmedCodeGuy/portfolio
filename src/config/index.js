@@ -7,7 +7,9 @@ module.exports = {
   siteUrl: 'https://ahmedhussein.netlify.com',
   siteLanguage: 'en_US',
   googleAnalyticsID: process.env.GOOGLE_ANALYTICS_TRACKING_ID || 'none',
-  googleVerification: process.env.GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE,
+  googleVerification:
+    process.env.GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE ||
+    '3ese3zfH3BODDHivtSFfdwBn_mNCOwpkGEJEYYcCNJ0',
   name: 'Ahmed Hussein',
   location: 'Cairo, EG',
   email: 'ahmedhussein.developer@gmail.com',
