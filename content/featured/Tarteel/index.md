@@ -3,7 +3,7 @@ date: '3'
 title: 'Tarteel'
 cover: './tarteel.png'
 github: 'https://github.com/Tarteel-io'
-external: 'http://shorturl.at/IJ049'
+external: 'https://www.tarteel.io/'
 tech:
   - React Native
   - Redux
