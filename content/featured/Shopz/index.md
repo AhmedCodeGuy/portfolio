@@ -3,7 +3,7 @@ date: '1'
 title: 'Shopz'
 cover: './shopz.png'
 github: ''
-external: 'https://apple.co/38ObJcx'
+external: 'https://shopz.io/'
 tech:
   - React Native
   - Redux
