@@ -1,38 +1,32 @@
 module.exports = {
-  siteTitle: 'Brittany Chiang | Software Engineer',
+  siteTitle: 'Ahmed Hussein | Software Engineer',
   siteDescription:
-    'Brittany Chiang is a software engineer based in Boston, MA who specializes in developing (and occasionally designing) exceptional, high-quality websites and applications.',
+    'Ahmed Hussein is a software engineer based in Cairo, EG who specializes in developing (and occasionally designing) exceptional, high-quality mobile applications.',
   siteKeywords:
-    'Brittany Chiang, Brittany, Chiang, bchiang7, software engineer, front-end engineer, web developer, javascript, northeastern',
-  siteUrl: 'https://brittanychiang.com',
+    'Ahmed Hussein, Ahmed, Hussein, ahmedcodeguy, software engineer, front-end engineer, mobile developer, javascript, react native developer',
+  siteUrl: 'https://ahmedhussein.netlify.com',
   siteLanguage: 'en_US',
-  googleAnalyticsID: 'UA-45666519-2',
-  googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Brittany Chiang',
-  location: 'Boston, MA',
-  email: 'brittany.chiang@gmail.com',
-  github: 'https://github.com/bchiang7',
-  twitterHandle: '@bchiang7',
+  googleAnalyticsID: process.env.GOOGLE_ANALYTICS_TRACKING_ID || 'none',
+  googleVerification:
+    process.env.GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE ||
+    '3ese3zfH3BODDHivtSFfdwBn_mNCOwpkGEJEYYcCNJ0',
+  name: 'Ahmed Hussein',
+  location: 'Cairo, EG',
+  email: 'ahmedhussein.developer@gmail.com',
+  github: 'https://github.com/ahmedCodeGuy',
+  twitterHandle: '@ahmedCodeGuy',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/ahmedCodeGuy',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://www.linkedin.com/in/ahmed-hussein-developer/',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://twitter.com/ahmedcodeguy',
     },
   ],
 

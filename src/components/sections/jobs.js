@@ -132,6 +132,10 @@ const StyledTabContent = styled.div`
   a {
     ${mixins.inlineLink};
   }
+  p {
+    ${mixins.fancyList};
+    margin-bottom: 20px;
+  }
 `;
 const StyledJobTitle = styled.h4`
   color: ${colors.lightestSlate};
