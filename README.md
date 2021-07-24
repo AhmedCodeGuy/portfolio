@@ -8,9 +8,9 @@
   The first iteration of <a href="https://ahmed-hussein.com/" target="_blank">ahmed-hussein.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
 
-<p align="center">
-  <a href="https://app.netlify.com/sites/ahmed-hussein/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
+<p align="center"></p>
+  <a href="https://app.netlify.com/sites/ahmedhussein/deploys" target="_blank">
+    <img src="https://api.netlify.com/api/v1/badges/37f01630-77bc-40d0-b067-c8726de820d0/deploy-status" alt="Netlify Status" />
   </a>
 </p>
 
