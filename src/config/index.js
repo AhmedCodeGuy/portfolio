@@ -1,10 +1,10 @@
 module.exports = {
   siteTitle: 'Ahmed Hussein | Software Engineer',
   siteDescription:
-    'Ahmed Hussein is a software engineer based in Cairo, EG who specializes in developing (and occasionally designing) exceptional, high-quality mobile applications.',
+    'Ahmed Hussein is a software engineer based in Cairo, EG specializing in building exceptional, high-quality mobile/web applications.',
   siteKeywords:
     'Ahmed Hussein, Ahmed, Hussein, ahmedcodeguy, software engineer, front-end engineer, mobile developer, javascript, react native developer',
-  siteUrl: 'https://ahmedhussein.netlify.com',
+  siteUrl: 'https://ahmed-hussein.com',
   siteLanguage: 'en_US',
   googleAnalyticsID: process.env.GOOGLE_ANALYTICS_TRACKING_ID || 'none',
   googleVerification:
