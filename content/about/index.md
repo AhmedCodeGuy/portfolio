@@ -4,18 +4,21 @@ avatar: './me.jpg'
 skills:
   - HTML & CSS
   - JavaScript (ES6+)
+  - TypeScript
   - React
   - React Native
+  - Redux
   - GraphQL
   - REST
 ---
 
-Hi! my name is Ahmed Hussein, and I'm a Software Engineer with strong JavaScript programming expertise in mobile development with a focus on React Native; recommending and implementing innovative solutions for the delivery of different mobile applications/tools on projects for clients.
+Hi 👋🏻
+I am Ahmed a Frontend Developer with strong JavaScript programming expertise for 5 years focusing on React/React Native; constructing clean and quality products.
 
-I care about; constructing clean, scalable, quality and top-notch solutions on a variety of projects - following established written procedures, guidelines, and techniques.
+I love implementing scalable, maintainable, testable, clean solutions - following established written procedures, guidelines, techniques, and best practices with a good eye for design and details.
 
-I am always willing to learn and open to sharing knowledge with co-workers.
+I enjoy being challenged and engaging with projects that require me to work outside my comfort zone and knowledge set, as continuing to learn new languages and development techniques is important to me as well as sharing knowledge and guiding junior developers and learn from seniors.
 
-Shortly while and after graduating and getting my bachelor's degree in Management Information Systems, I took many online courses one of which is [Harvard University](https://online-learning.harvard.edu/course/cs50-introduction-computer-science) course CS50, and after a few years of experience, I joined the engineering team of [Tarteel.io](https://www.tarteel.io/about) a US-based startup.
+Shortly while and after graduating and getting my bachelor's degree in Management Information Systems, I took many online courses one of which is [Harvard University](https://online-learning.harvard.edu/course/cs50-introduction-computer-science) course CS50, I am currently working at [YourWelcome.com](https://www.yourwelcome.com) based in London, UK.
 
-Here are a few technologies I've been working with recently:
+Here are some of my strongest skills:
