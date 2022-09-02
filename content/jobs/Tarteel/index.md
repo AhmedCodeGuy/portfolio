@@ -1,9 +1,9 @@
 ---
 date: '2019-12-21'
-title: 'Software Engineer'
+title: 'Mobile Developer'
 company: 'Tarteel'
 location: 'Remote, USA'
-range: 'Oct 2019 - Present'
+range: 'Oct 2019 - Nov 2020 · 1 yr 2 mos'
 url: 'https://www.tarteel.io/about'
 ---
 
