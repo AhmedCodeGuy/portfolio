@@ -6,8 +6,6 @@ import {
   IconCodepen,
   IconInstagram,
   IconTwitter,
-  IconStar,
-  IconFork,
 } from '@components/icons';
 import { socialMedia } from '@config';
 import styled from 'styled-components';
@@ -54,24 +52,9 @@ const StyledGitHubLink = styled.a`
   color: ${colors.slate};
   padding: 10px;
 `;
-const StyledGitHubInfo = styled.div`
-  margin-top: 10px;
-
-  & > span {
-    display: inline-flex;
-    align-items: center;
-    margin: 0 7px;
-  }
-  svg {
-    display: inline-block;
-    height: 15px;
-    width: auto;
-    margin-right: 5px;
-  }
-`;
 
 const Footer = () => {
-  const [githubInfo, setGitHubInfo] = useState({
+  const [setGitHubInfo] = useState({
     stars: null,
     forks: null,
   });
@@ -127,20 +110,7 @@ const Footer = () => {
           href="https://github.com/bchiang7/v4"
           target="_blank"
           rel="nofollow noopener noreferrer">
-          <div>Originally Designed &amp; Built by Brittany Chiang</div>
-
-          {githubInfo.stars && githubInfo.forks && (
-            <StyledGitHubInfo>
-              <span>
-                <IconStar />
-                <span>{githubInfo.stars}</span>
-              </span>
-              <span>
-                <IconFork />
-                <span>{githubInfo.forks}</span>
-              </span>
-            </StyledGitHubInfo>
-          )}
+          <div>This project is a fork of Brittany Chiang's website</div>
         </StyledGitHubLink>
       </StyledMetadata>
     </StyledContainer>
