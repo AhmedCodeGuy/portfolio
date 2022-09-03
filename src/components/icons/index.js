@@ -1,31 +1,15 @@
-import IconLoader from './loader';
-import IconLogo from './logo';
-import IconGitHub from './github';
-import IconLinkedin from './linkedin';
-import IconCodepen from './codepen';
-import IconInstagram from './instagram';
-import IconTwitter from './twitter';
-import IconExternal from './external';
-import IconFolder from './folder';
-import IconLocation from './location';
-import IconStar from './star';
-import IconFork from './fork';
-import IconZap from './zap';
-import FormattedIcon from './formattedIcon';
-
-export {
-  IconLoader,
-  IconLogo,
-  IconGitHub,
-  IconLinkedin,
-  IconCodepen,
-  IconInstagram,
-  IconTwitter,
-  IconExternal,
-  IconFolder,
-  IconLocation,
-  IconStar,
-  IconFork,
-  IconZap,
-  FormattedIcon,
-};
+export { default as IconAppStore } from './appstore';
+export { default as IconBookmark } from './bookmark';
+export { default as IconCodepen } from './codepen';
+export { default as IconExternal } from './external';
+export { default as IconFolder } from './folder';
+export { default as IconFork } from './fork';
+export { default as Icon } from './icon';
+export { default as IconGitHub } from './github';
+export { default as IconInstagram } from './instagram';
+export { default as IconLinkedin } from './linkedin';
+export { default as IconLoader } from './loader';
+export { default as IconLogo } from './logo';
+export { default as IconPlayStore } from './playstore';
+export { default as IconStar } from './star';
+export { default as IconTwitter } from './twitter';

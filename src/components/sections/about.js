@@ -45,6 +45,8 @@ const StyledText = styled.div`
       }
     }
   }
+    }
+  }
 `;
 const StyledPic = styled.div`
   position: relative;
