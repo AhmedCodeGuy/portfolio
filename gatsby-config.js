@@ -7,7 +7,7 @@ module.exports = {
       'I am a software engineer based in Egypt, I help startups build good looking, high-quality products for the mobile and the web.',
     siteUrl: 'https://ahmed-hussein.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@ahmedCodeGuy',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
