@@ -3,7 +3,7 @@ date: '2018-1-1'
 title: 'Frontend Developer'
 company: 'Shopz'
 location: 'Cairo, Egypt'
-range: 'Jan 2018 - Feb 2019 · 1 yr 2 mos'
+range: 'Jan 2018 - Feb 2019'
 url: 'http://shopz.io'
 ---
 

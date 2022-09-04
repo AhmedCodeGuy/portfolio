@@ -3,7 +3,7 @@ date: '2021-02-01'
 title: 'Senior Software Engineer'
 company: 'YourWelcome'
 location: 'Remote, UK'
-range: 'Feb 2021 - Sep 2022 · 1 yr 8 mos'
+range: 'Feb 2021 - Sep 2022'
 url: 'https://www.yourwelcome.com/'
 ---
 
