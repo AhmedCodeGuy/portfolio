@@ -1,10 +1,10 @@
 ---
 date: '2018-1-1'
-title: 'Software Engineer'
+title: 'Frontend Developer'
 company: 'Shopz'
-location: 'Cairo, EG'
-range: 'Jan 2018 - Feb 2019'
-url: 'https://www.innoappstech.com/'
+location: 'Cairo, Egypt'
+range: 'Jan 2018 - Feb 2019 · 1 yr 2 mos'
+url: 'http://shopz.io'
 ---
 
 Shopz is a UAE-based startup with an office in Egypt.

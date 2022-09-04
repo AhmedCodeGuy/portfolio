@@ -1,110 +1,112 @@
 import React, { useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import { email } from '@config';
 import styled from 'styled-components';
-import { theme, mixins, media, Section } from '@styles';
-const { colors, fontSizes, fonts } = theme;
+import { navDelay, loaderDelay } from '@utils';
+import { usePrefersReducedMotion } from '@hooks';
+// import { email } from '@config';
 
-const StyledContainer = styled(Section)`
-  ${mixins.flexCenter};
+const StyledHeroSection = styled.section`
+  ${({ theme }) => theme.mixins.flexCenter};
   flex-direction: column;
   align-items: flex-start;
   min-height: 100vh;
-  ${media.tablet`padding-top: 150px;`};
-  div {
-    width: 100%;
+  padding: 0;
+
+  @media (max-width: 480px) and (min-height: 700px) {
+    padding-bottom: 10vh;
   }
-`;
-const StyledOverline = styled.h1`
-  color: ${colors.green};
-  margin: 0 0 20px 3px;
-  font-size: ${fontSizes.md};
-  font-family: ${fonts.SFMono};
-  font-weight: normal;
-  ${media.desktop`font-size: ${fontSizes.sm};`};
-  ${media.tablet`font-size: ${fontSizes.smish};`};
-`;
-const StyledTitle = styled.h2`
-  font-size: 80px;
-  line-height: 1.1;
-  margin: 0;
-  ${media.desktop`font-size: 70px;`};
-  ${media.tablet`font-size: 60px;`};
-  ${media.phablet`font-size: 50px;`};
-  ${media.phone`font-size: 40px;`};
-`;
-const StyledSubtitle = styled.h3`
-  font-size: 80px;
-  line-height: 1.1;
-  color: ${colors.slate};
-  ${media.desktop`font-size: 70px;`};
-  ${media.tablet`font-size: 60px;`};
-  ${media.phablet`font-size: 50px;`};
-  ${media.phone`font-size: 40px;`};
-`;
-const StyledDescription = styled.div`
-  margin-top: 25px;
-  width: 50%;
-  max-width: 500px;
-  a {
-    ${mixins.inlineLink};
+
+  h1 {
+    margin: 0 0 30px 4px;
+    color: var(--green);
+    font-family: var(--font-mono);
+    font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
+    font-weight: 400;
+
+    @media (max-width: 480px) {
+      margin: 0 0 20px 2px;
+    }
   }
-`;
-const StyledEmailLink = styled.a`
-  ${mixins.bigButton};
-  margin-top: 50px;
+
+  h3 {
+    margin-top: 10px;
+    color: var(--slate);
+    line-height: 0.9;
+  }
+
+  p {
+    margin: 20px 0 0;
+    max-width: 540px;
+  }
+
+  .email-link {
+    ${({ theme }) => theme.mixins.bigButton};
+    margin-top: 50px;
+  }
 `;
 
-const Hero = ({ data }) => {
+const Hero = () => {
   const [isMounted, setIsMounted] = useState(false);
+  const prefersReducedMotion = usePrefersReducedMotion();
 
   useEffect(() => {
-    const timeout = setTimeout(() => setIsMounted(true), 1000);
+    if (prefersReducedMotion) {
+      return;
+    }
+
+    const timeout = setTimeout(() => setIsMounted(true), navDelay);
     return () => clearTimeout(timeout);
   }, []);
 
-  const { frontmatter, html } = data[0].node;
-
-  const one = () => (
-    <StyledOverline style={{ transitionDelay: '100ms' }}>{frontmatter.title}</StyledOverline>
+  const one = <h1>Hi, my name is</h1>;
+  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
+  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const four = (
+    <>
+      <p>
+        I’m a software engineer specializing in building (and occasionally designing) exceptional
+        digital experiences. Currently, I’m focused on building accessible, human-centered products
+        at{' '}
+        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
+          Upstatement
+        </a>
+        .
+      </p>
+    </>
   );
-  const two = () => (
-    <StyledTitle style={{ transitionDelay: '200ms' }}>{frontmatter.name}.</StyledTitle>
-  );
-  const three = () => (
-    <StyledSubtitle style={{ transitionDelay: '300ms' }}>{frontmatter.subtitle}</StyledSubtitle>
-  );
-  const four = () => (
-    <StyledDescription
-      style={{ transitionDelay: '400ms' }}
-      dangerouslySetInnerHTML={{ __html: html }}
-    />
-  );
-  const five = () => (
-    <div style={{ transitionDelay: '500ms' }}>
-      <StyledEmailLink href={`mailto:${email}`}>Get In Touch</StyledEmailLink>
-    </div>
+  const five = (
+    <a
+      className="email-link"
+      href="https://www.newline.co/courses/build-a-spotify-connected-app"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Check out my course!
+    </a>
   );
 
   const items = [one, two, three, four, five];
 
   return (
-    <StyledContainer>
-      <TransitionGroup component={null}>
-        {isMounted &&
-          items.map((item, i) => (
-            <CSSTransition key={i} classNames="fadeup" timeout={3000}>
-              {item}
-            </CSSTransition>
+    <StyledHeroSection>
+      {prefersReducedMotion ? (
+        <>
+          {items.map((item, i) => (
+            <div key={i}>{item}</div>
           ))}
-      </TransitionGroup>
-    </StyledContainer>
+        </>
+      ) : (
+        <TransitionGroup component={null}>
+          {isMounted &&
+            items.map((item, i) => (
+              <CSSTransition key={i} classNames="fadeup" timeout={loaderDelay}>
+                <div style={{ transitionDelay: `${i + 1}00ms` }}>{item}</div>
+              </CSSTransition>
+            ))}
+        </TransitionGroup>
+      )}
+    </StyledHeroSection>
   );
-};
-
-Hero.propTypes = {
-  data: PropTypes.array.isRequired,
 };
 
 export default Hero;
