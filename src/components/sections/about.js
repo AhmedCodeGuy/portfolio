@@ -127,7 +127,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'HTML & CSS',
+    'JavaScript (ES6+)',
+    'TypeScript',
+    'React',
+    'React Native',
+    'Redux',
+    'GraphQL',
+    'REST',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -137,33 +146,39 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              {' '}
+              Hi! My name is Ahmed and I am a Frontend Developer with strong JavaScript programming
+              expertise for 5 years focusing on React/React Native; constructing clean and quality
+              products.{' '}
             </p>
-
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              {' '}
+              I love implementing scalable, maintainable, testable, clean solutions - following
+              established written procedures, guidelines, techniques, and best practices with a good
+              eye for design and details.{' '}
             </p>
-
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              {' '}
+              I enjoy being challenged and engaging with projects that require me to work outside my
+              comfort zone and knowledge set, as continuing to learn new languages and development
+              techniques is important to me as well as sharing knowledge and guiding junior
+              developers and learn from seniors.{' '}
             </p>
-
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>
+              {' '}
+              Shortly while and after graduating and getting my bachelor's degree in Management
+              Information Systems, I took many online courses one of which is{' '}
+              <a href="https://online-learning.harvard.edu/course/cs50-introduction-computer-science">
+                Harvard University
+              </a>
+              , course CS50,{' '}
+            </p>
+            <p>
+              {' '}
+              I am currently working at <a href="https://www.yourwelcome.com">YourWelcome</a> based
+              in London, UK.{' '}
+            </p>
+            <p> Here are some of my strongest skills: </p>
           </div>
 
           <ul className="skills-list">
