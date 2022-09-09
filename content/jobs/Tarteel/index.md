@@ -3,7 +3,7 @@ date: '2019-12-21'
 title: 'Mobile Developer'
 company: 'Tarteel'
 location: 'Remote, USA'
-range: 'Oct 2019 - Nov 2020 · 1 yr 2 mos'
+range: 'Oct 2019 - Nov 2020'
 url: 'https://www.tarteel.io/about'
 ---
 

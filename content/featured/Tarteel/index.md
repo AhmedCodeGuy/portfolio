@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '1'
 title: 'Tarteel'
 cover: './tarteel.png'
 github: 'https://github.com/Tarteel-io'

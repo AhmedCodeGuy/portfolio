@@ -3,7 +3,7 @@ date: '2020-05-1'
 title: 'Mobile Developer'
 company: 'SnackBook'
 location: 'Remote, Kuwait'
-range: 'May 2020 - Feb 2021 · 10 mos'
+range: 'May 2020 - Feb 2021'
 url: 'https://snackbook.me/'
 ---
 
