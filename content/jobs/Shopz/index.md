@@ -7,16 +7,10 @@ range: 'Jan 2018 - Feb 2019'
 url: 'http://shopz.io'
 ---
 
-Shopz is a UAE-based startup with an office in Egypt.
+Shopz is a UAE-based startup with an office in Egypt building SaaS ecommerece mobile application that integrates with wordpress woocommerece databases to generate a ready to use application that is customizable through a custom web portal.
 
-- I was actively participating in sprint planning, meetups, daily stand-ups, pair programming, and code reviews for the development of the solutions.
+- Communicate and collaborate with multi-disciplinary teams of engineers, designers, and stakeholders on a daily basis.
 
-- Developed and shipped highly interactive SaaS cross-platform eCommerce mobile app; writing queries, mutations, and subscriptions for the solution.
+- Contributed extensively to the main product, a green field eCommerce mobile app and a customer-facing web portal.
 
-- Worked on solutions for the dashboard that integrates with the backend of a client's existing eCommerce website.
-
-- Built reusable components and optimized solutions for maximum performance on the projects.
-
-- Maintained codebase and resolved common and major libraries issues on the solutions.
-
-- Created requirements, design and test documentation for the apps, and followed coding best practices/standards in the delivery of solutions on the project.
+- Built and tested reusable, clean code with an eye for design and details.

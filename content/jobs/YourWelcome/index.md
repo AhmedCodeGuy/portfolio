@@ -9,12 +9,14 @@ url: 'https://www.yourwelcome.com/'
 
 YourWelcome is the leading guest management & monetisation platform for alternative accommodation. Helping customers make more money from every booking.
 
-- Communicating with a multi-disciplinary team of co-founder, engineers and designers.
+- Worked closely with a small team of a co-founder, designer and engineers.
 
-- I've architected and implemented the front-end of YourWelcome's main SaaS web application.
+- Engineered, maintained and tested major features of customer-facing web apps.
 
-- Built reusable, clean code for YourWelcome's main product with an eye for performance and simplicity; ensuring the technical feasibility of UI/UX designs.
+- Built reusable, clean code for the main product with an eye for performance and simplicity; ensuring the technical feasibility of UI/UX designs.
 
-- Optimized key components of YourWelcome's main product for maximum speed and scalability.
+- Optimized the key components for maximum speed and scalability.
 
-- Served as a technology expert in refactoring, enhancing codebase and adding new features on multi projects.
+- Served as a technology expert in refactoring, enhancing codebase and adding new features on multiple projects.
+
+- Assisting other developers by answering questions on slack.

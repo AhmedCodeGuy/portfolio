@@ -9,12 +9,10 @@ url: 'https://snackbook.me/'
 
 Kuwait based startup, Basically it's Blinkist in Arabic.
 
-- Communicated with the co-founders to analyse the requirements and broke down them into tasks
+- Served as a technology expert in bug-fixing, refactoring, enhancing codebase and adding new features to the mobile app.
 
-- Served as a technology expert in refactoring and enhancing codebase on the project.
+- I was able to transform the codebase from buggy, spaghetti, and legacy to up to date well architected, clean, easy to maintain easy to add more features to.
 
-- I've architected and implemented the front-end of SnackBook's mobile application.
+- Implemented a brand new design replacing the old one.
 
-- Built reusable, clean code for SnackBook's solution with an eye for performance and simplicity; ensuring the technical feasibility of UI/UX designs on the solution.
-
-- Optimized key components of SnackBook's solution for maximum speed and scalability.
+- Launched the app to the app store and play store.
