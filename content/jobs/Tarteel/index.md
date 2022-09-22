@@ -1,6 +1,6 @@
 ---
 date: '2019-12-21'
-title: 'Mobile Developer'
+title: 'React Native Developer'
 company: 'Tarteel'
 location: 'Remote, USA'
 range: 'Oct 2019 - Nov 2020'

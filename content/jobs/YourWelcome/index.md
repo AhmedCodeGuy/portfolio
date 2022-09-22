@@ -1,6 +1,6 @@
 ---
 date: '2021-02-01'
-title: 'Senior Software Engineer'
+title: 'Frontend Developer'
 company: 'YourWelcome'
 location: 'Remote, UK'
 range: 'Feb 2021 - Sep 2022'

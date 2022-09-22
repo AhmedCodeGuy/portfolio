@@ -1,6 +1,6 @@
 ---
 date: '2020-05-1'
-title: 'Mobile Developer'
+title: 'React Native Developer'
 company: 'SnackBook'
 location: 'Remote, Kuwait'
 range: 'May 2020 - Feb 2021'
